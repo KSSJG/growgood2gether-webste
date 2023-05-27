@@ -1,0 +1,62 @@
+body{
+    background-image: url("background.jpeg");
+  background-position: center;
+ background-size:cover;
+    background-repeat:no-repeat;
+   
+    
+}
+
+.main{
+    object-position:center;
+    top:30%;
+    position:absolute;
+    left:30%;
+    width:550px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    border-width:1px;
+    border-style:solid;
+    border-radius:16px;
+    border-color:grey;
+    background-color:rgba(0,0,0,0.3);
+    color:white;
+}
+
+
+#file::-webkit-file-upload-button{
+  visibility:hidden;
+}
+
+#file,input[type="button"],#color{
+    width:90%;
+    height:70px;
+    margin-bottom:20px;
+    border-style:solid;
+    border-color:rgba(0,0,0,0.6);
+    
+    font-size:19px;
+    text-align:center;
+    
+    border-radius:16px;
+    background-color:rgba(0,0,0,0.1);
+    color:#fff;
+
+    transition:0.3s all;
+}
+
+#file{
+    width:76%;
+    height:50px;
+   padding-top:20px;
+   padding-left:70px;
+}
+
+
+#file:hover,input[type="button"]:hover,#color:hover{
+     background-color:rgb(183, 132, 231);
+     cursor:pointer;
+}   
+
